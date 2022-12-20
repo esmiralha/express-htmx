@@ -1,0 +1,26 @@
+{
+  "name": "express-htmx",
+  "version": "0.0.1",
+  "description": "Extensions for Express and htmx.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project .",
+    "test": "echo \"Testing??? hahaha\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esmiralha/express-htmx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esmiralha/express-htmx/issues"
+  },
+  "homepage": "https://github.com/esmiralha/express-htmx#readme",
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "mocha": "10.2.0"
+  }
+}
