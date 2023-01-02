@@ -5,7 +5,14 @@ const htmx = require("../index");
 describe("htmx request header", () => {
     test("abssent", () => {
         const htmxMiddleware = htmx.middleware;
-        const req = { get: (header) => { return undefined; }};
+        const req = {
+            get: (header) => {
+                const headers = {
+                  
+                };
+                return headers[header];
+            }
+        };
         const res = {};
         htmxMiddleware(req, res, () => { });
         assert.isFalse(req.htmx.isHtmx);
