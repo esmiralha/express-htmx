@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --project .",
-    "test": "echo \"Testing??? hahaha\" && exit 1",
+    "test": "mocha",
     "lint": "eslint"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/esmiralha/express-htmx#readme",
   "devDependencies": {
+    "chai": "4.3.7",
     "eslint": "8.30.0",
     "mocha": "10.2.0"
   }
