@@ -33,7 +33,3 @@ app.get("/", function (req, res) {
   }
 });
 ```
-
-### isHtmx()
-
-Returns `true` if the request came from an htmx AJAX call.
